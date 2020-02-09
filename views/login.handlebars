@@ -1,0 +1,13 @@
+<h1>Login</h1>
+<form id="loginForm">
+    <div class="form-row">
+        <label id="message-Author" for="messageAuthor">Author</label>
+        <input type="text" name="author" id="messageAuthor" placeholder="Hier bitte einen Namen eingeben...">
+    </div>
+    <div class="form-controls">
+        <button id="sendAuthor" type="submit">Senden</button>
+        <span class="error" id="validationError" style="display: none">Author darf nicht leer sein.</span>
+    </div>
+    <input type="hidden" id="login" value="">
+</form>
+<script type="application/javascript" src="scriptLogin.js"></script>
