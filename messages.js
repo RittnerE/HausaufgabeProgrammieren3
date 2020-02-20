@@ -1,5 +1,5 @@
 const fs = require('fs');
-
+//
 const fileName = './messages.json';
 
 function getAllMessages(){
